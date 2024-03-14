@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(54deg,rgba(142, 166, 169, 0.479),rgba(82, 130, 146, 0.454), rgba(0, 183, 255, 0.441), rgb(80, 119, 142),rgb(143, 165, 184))
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+#loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 400px;
+    box-shadow: 4px 2px 10px black;
+    transition: .5s;
+    border-radius: 1rem;
+}
+h2{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.userName, .userPassword{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    font-size: 1.3rem;
+}
+
+.userPassword{
+    margin-top: 1rem;
+}
+
+input[type= "password"], input[type= "text"]{
+    display: inline-block;
+    height: 2rem;
+    border: none;
+    border-radius: .2rem;
+    padding-left: .5rem;
+    background-color: inherit;
+    border-bottom: 2px solid black;
+    outline: none;
+    color: white;
+    caret-color: black;
+}
+
+#forgot{
+    margin-top: 1rem;
+    width: 90%;
+    text-align: right;
+}
+
+#register{
+    text-align: center;
+}
+
+button{
+    width: 3.8rem;
+    height: 1.9rem;
+    background: linear-gradient(45deg,aqua,white,white, aqua);
+    border-radius: .5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    box-shadow: 2px 2px 10px black;
+    color:rgb(81, 48, 5);
+}
+#other{
+    text-align: center;
+    margin-top: 1rem;
+    color: rgb(181, 78, 78);
+}
+.platforms{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#instagram{
+    margin: 0 1rem 0 1rem;
+}
+
+
+#sub-container{
+    
+    /* border-top: .2rem solid;
+    border-left: .2rem solid;  */
+    border-top-left-radius: 10px;
+    background: linear-gradient(45deg,red,green,blue);
+    
+    
+    
+    
+}
+
+
+input::placeholder{
+    color:rgb(38, 63, 63);
+    font-size: .87rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#loginForm:hover{
+    box-shadow: 2px 4px 18px black;
+}
+
