@@ -66,6 +66,10 @@ input[type= "password"], input[type= "text"]{
     text-align: right;
 }
 
+#forgot a{
+    text-decoration: none;
+}
+
 #register{
     text-align: center;
 }
@@ -73,11 +77,11 @@ input[type= "password"], input[type= "text"]{
 button{
     width: 3.8rem;
     height: 1.9rem;
-    background: linear-gradient(45deg,aqua,white,white, aqua);
+    background: linear-gradient(45deg, wheat);
     border-radius: .5rem;
     margin-top: 1rem;
     font-size: 1rem;
-    box-shadow: 2px 2px 10px black;
+    box-shadow: 2px 2px 5px black;
     color:rgb(81, 48, 5);
 }
 #other{
@@ -100,8 +104,8 @@ button{
     
     /* border-top: .2rem solid;
     border-left: .2rem solid;  */
-    border-top-left-radius: 10px;
-    background: linear-gradient(45deg,red,green,blue);
+    border-radius: 10px;
+    background: white;
     
     
     
